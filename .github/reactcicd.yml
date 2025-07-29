@@ -33,4 +33,10 @@ jobs:
 
       - name: Build the project
         run: npm run build --if-present
+
+      - name: Configure Git identity
+        run: |
+          git config --global user.name "snigdhadilli"
+          git config --global user.email "snigdhagayathri24@gmail.com"
+
       
